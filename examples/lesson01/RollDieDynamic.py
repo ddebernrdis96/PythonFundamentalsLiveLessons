@@ -41,6 +41,7 @@ die_animation = animation.FuncAnimation(
     fargs=(rolls_per_frame, values, frequencies))
 
 plt.show()  # display window
+anim.save()
 
 
 #**************************************************************************
